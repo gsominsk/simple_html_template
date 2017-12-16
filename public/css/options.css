@@ -1,0 +1,54 @@
+/* fonts */
+@font-face {
+    font-family: 'Roboto Light';
+    src: url('fonts/roboto_thin.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('fonts/roboto_black.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto Regular';
+    src: url('fonts/roboto_regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* headings */
+h1 {
+
+}
+h2 {
+
+}
+h3 {
+
+}
+h4 {
+
+}
+h5 {
+
+}
+h6 {
+
+}
+
+/* instrument */
+.normalize-ul {
+    padding: 0;
+    margin: 0;
+
+    list-style: none;
+}
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
